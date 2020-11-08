@@ -20,7 +20,7 @@ public class Client
         // establish a connection
         try
         {
-            System.out.println("Client IP Address: "+address);
+            System.out.println("Client IP Address : "+address);
             System.out.println("Client Port :"+port);
             socket = new Socket(address, port);
             System.out.println("Connected");
